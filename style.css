@@ -12,7 +12,7 @@ body{
     src: url(assets/Roboto/Roboto-Black.ttf);
 }
 .gap{
-    height: 30px;
+    height: 40px;
     width: 100%;
 }
 .heading{
@@ -29,7 +29,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
     width: 89%;
-    height: 550px;
+    height: 560px;
     background-color: aqua;
 }
 .row{
@@ -406,5 +406,238 @@ body{
 .Xe{
     position: absolute;
     left: 1140px;
+    background-color: white;
+}
+/*////////////////////////////////////////////////Row7*/
+.Fr{
+    position: absolute;
+    left: 0px;
+    background-color: white;
+}
+.Ra{
+    position: absolute;
+    left: 60px;
+    background-color: white;
+}
+.Ac{
+    position: absolute;
+    left: 120px;
+    background-color: white;
+}
+.Rf{
+    position: absolute;
+    left: 300px;
+    background-color: white;
+}
+.Db{
+    position: absolute;
+    left: 360px;
+    background-color: white;
+}
+.Sg{
+    position: absolute;
+    left: 420px;
+    background-color: white;
+}
+.Bh{
+    position: absolute;
+    left: 480px;
+    background-color: white;
+}
+.Hs{
+    position: absolute;
+    left: 540px;
+    background-color: white;
+}
+.Mt{
+    position: absolute;
+    left: 600px;
+    background-color: white;
+}
+.Ds{
+    position: absolute;
+    left: 660px;
+    background-color: white;
+}
+.Rg{
+    position: absolute;
+    left: 720px;
+    background-color: white;
+}
+.Cn{
+    position: absolute;
+    left: 780px;
+    background-color: white;
+}
+.Nh{
+    position: absolute;
+    left: 840px;
+    background-color: white;
+}
+.Fl{
+    position: absolute;
+    left: 900px;
+    background-color: white;
+}
+.Mc{
+    position: absolute;
+    left: 960px;
+    background-color: white;
+}
+.Lv{
+    position: absolute;
+    left: 1020px;
+    background-color: white;
+}
+.Ts{
+    position: absolute;
+    left: 1080px;
+    background-color: white;
+}
+.Og{
+    position: absolute;
+    left: 1140px;
+    background-color: white;
+}
+/*////////////////////////////////////////////////Row7*/
+.Ce{
+    position: absolute;
+    left: 300px;
+    background-color: white;
+}
+.Pr{
+    position: absolute;
+    left: 360px;
+    background-color: white;
+}
+.Nd{
+    position: absolute;
+    left: 420px;
+    background-color: white;
+}
+.Pm{
+    position: absolute;
+    left: 480px;
+    background-color: white;
+}
+.Sm{
+    position: absolute;
+    left: 540px;
+    background-color: white;
+}
+.Eu{
+    position: absolute;
+    left: 600px;
+    background-color: white;
+}
+.Gd{
+    position: absolute;
+    left: 660px;
+    background-color: white;
+}
+.Tb{
+    position: absolute;
+    left: 720px;
+    background-color: white;
+}
+.Dy{
+    position: absolute;
+    left: 780px;
+    background-color: white;
+}
+.Ho{
+    position: absolute;
+    left: 840px;
+    background-color: white;
+}
+.Er{
+    position: absolute;
+    left: 900px;
+    background-color: white;
+}
+.Tm{
+    position: absolute;
+    left: 960px;
+    background-color: white;
+}
+.Yb{
+    position: absolute;
+    left: 1020px;
+    background-color: white;
+}
+.Lu{
+    position: absolute;
+    left: 1080px;
+    background-color: white;
+}
+/*////////////////////////////////////////////////Row8*/
+.Th{
+    position: absolute;
+    left: 300px;
+    background-color: white;
+}
+.Pa{
+    position: absolute;
+    left: 360px;
+    background-color: white;
+}
+.U{
+    position: absolute;
+    left: 420px;
+    background-color: white;
+}
+.Np{
+    position: absolute;
+    left: 480px;
+    background-color: white;
+}
+.Pu{
+    position: absolute;
+    left: 540px;
+    background-color: white;
+}
+.Am{
+    position: absolute;
+    left: 600px;
+    background-color: white;
+}
+.Cm{
+    position: absolute;
+    left: 660px;
+    background-color: white;
+}
+.Bk{
+    position: absolute;
+    left: 720px;
+    background-color: white;
+}
+.Cf{
+    position: absolute;
+    left: 780px;
+    background-color: white;
+}
+.Es{
+    position: absolute;
+    left: 840px;
+    background-color: white;
+}
+.Fm{
+    position: absolute;
+    left: 900px;
+    background-color: white;
+}
+.Md{
+    position: absolute;
+    left: 960px;
+    background-color: white;
+}
+.No{
+    position: absolute;
+    left: 1020px;
+    background-color: white;
+}
+.Lr{
+    position: absolute;
+    left: 1080px;
     background-color: white;
 }
