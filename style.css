@@ -646,8 +646,8 @@ body{
 }
 .Number{
     position: absolute;
-    top: -1%;
-    left: -1%;
+    top: 2%;
+    left: 2%;
     height: auto;
     font-family: roboto;
 }
