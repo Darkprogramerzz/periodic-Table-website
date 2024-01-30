@@ -44,605 +44,371 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    background-color: white;
+    position: absolute;
 }
 /*////////////////////////////////////////////////Row1*/
 .H{
-    position: absolute;
     left: 0px;
-    background-color: white;
 }
 .He{
-    position: absolute;
     left: 1080px;
-    background-color: white;
 }
 /*////////////////////////////////////////////////Row2*/
 .Li{
-    position: absolute;
     left:0px;
-    background-color: white;
 }
 .Be{
-    position: absolute;
     left: 60px;
-    background-color: white;
 }
 .B{
-    position: absolute;
     left: 780px;
-    background-color: white;
 }
 .C{
-    position: absolute;
     left: 840px;
-    background-color: white;
 }
 .N{
-    position: absolute;
     left: 900px;
-    background-color: white;
 }
 .O{
-    position: absolute;
     left: 960px;
-    background-color: white;
 }
 .F{
-    position: absolute;
     left: 1020px;
-    background-color: white;
 }
 .Ne{
-    position: absolute;
     left: 1080px;
-    background-color: white;
 }
 /*////////////////////////////////////////////////Row3*/
 .Na{
-    position: absolute;
     left:0px;
-    background-color: white;
 }
 .Mg{
-    position: absolute;
     left: 60px;
-    background-color: white;
 }
 .Al{
-    position: absolute;
     left: 780px;
-    background-color: white;
 }
 .Si{
-    position: absolute;
     left: 840px;
-    background-color: white;
 }
 .P{
-    position: absolute;
     left: 900px;
-    background-color: white;
 }
 .S{
-    position: absolute;
     left: 960px;
-    background-color: white;
 }
 .Cl{
-    position: absolute;
     left: 1020px;
-    background-color: white;
 }
 .Ar{
-    position: absolute;
     left: 1080px;
-    background-color: white;
 }
 /*////////////////////////////////////////////////Row3*/
 .K{
-    position: absolute;
     left: 0px;
-    background-color: white;
 }
 .Ca{
-    position: absolute;
     left: 60px;
-    background-color: white;
 }
 .Sc{
-    position: absolute;
     left: 120px;
-    background-color: white;
 }
 .Ti{
-    position: absolute;
     left: 240px;
-    background-color: white;
 }
 .V{
-    position: absolute;
     left: 300px;
-    background-color: white;
 }
 .Cr{
-    position: absolute;
     left: 360px;
-    background-color: white;
 }
 .Mn{
-    position: absolute;
     left: 420px;
-    background-color: white;
 }
 .Fe{
-    position: absolute;
     left: 480px;
-    background-color: white;
 }
 .Co{
-    position: absolute;
     left: 540px;
-    background-color: white;
 }
 .Ni{
-    position: absolute;
     left: 600px;
-    background-color: white;
 }
 .Cu{
-    position: absolute;
     left: 660px;
-    background-color: white;
 }
 .Zn{
-    position: absolute;
     left: 720px;
-    background-color: white;
 }
 .Ga{
-    position: absolute;
     left: 780px;
-    background-color: white;
 }
 .Ge{
-    position: absolute;
     left: 840px;
-    background-color: white;
 }
 .As{
-    position: absolute;
     left: 900px;
-    background-color: white;
 }
 .Se{
-    position: absolute;
     left: 960px;
-    background-color: white;
 }
 .Br{
-    position: absolute;
     left: 1020px;
-    background-color: white;
 }
 .Kr{
-    position: absolute;
     left: 1080px;
-    background-color: white;
 }
 /*////////////////////////////////////////////////Row6*/
 .Cs{
-    position: absolute;
     left: 0px;
-    background-color: white;
 }
 .Ba{
-    position: absolute;
     left: 60px;
-    background-color: white;
 }
 .La{
-    position: absolute;
     left: 120px;
-    background-color: white;
 }
 .Hf{
-    position: absolute;
     left: 240px;
-    background-color: white;
 }
 .Ta{
-    position: absolute;
     left: 300px;
-    background-color: white;
 }
 .W{
-    position: absolute;
     left: 360px;
-    background-color: white;
 }
 .Re{
-    position: absolute;
     left: 420px;
-    background-color: white;
 }
 .Os{
-    position: absolute;
     left: 480px;
-    background-color: white;
 }
 .Ir{
-    position: absolute;
     left: 540px;
-    background-color: white;
 }
 .Pt{
-    position: absolute;
     left: 600px;
-    background-color: white;
 }
 .Au{
-    position: absolute;
     left: 660px;
-    background-color: white;
 }
 .Hg{
-    position: absolute;
     left: 720px;
-    background-color: white;
 }
 .Tl{
-    position: absolute;
     left: 780px;
-    background-color: white;
 }
 .Pb{
-    position: absolute;
     left: 840px;
-    background-color: white;
 }
 .Bi{
-    position: absolute;
     left: 900px;
-    background-color: white;
 }
 .Po{
-    position: absolute;
     left: 960px;
-    background-color: white;
 }
 .At{
-    position: absolute;
     left: 1020px;
-    background-color: white;
 }
 .Rn{
-    position: absolute;
     left: 1080px;
-    background-color: white;
 }
 /*////////////////////////////////////////////////Row5*/
 .Rb{
-    position: absolute;
     left: 0px;
-    background-color: white;
 }
 .Sr{
-    position: absolute;
     left: 60px;
-    background-color: white;
 }
 .Y{
-    position: absolute;
     left: 120px;
-    background-color: white;
 }
 .Zr{
-    position: absolute;
     left: 240px;
-    background-color: white;
 }
 .Nb{
-    position: absolute;
     left: 300px;
-    background-color: white;
 }
 .Mo{
-    position: absolute;
     left: 360px;
-    background-color: white;
 }
 .Tc{
-    position: absolute;
     left: 420px;
-    background-color: white;
 }
 .Ru{
-    position: absolute;
     left: 480px;
-    background-color: white;
 }
 .Rh{
-    position: absolute;
     left: 540px;
-    background-color: white;
 }
 .Pd{
-    position: absolute;
     left: 600px;
-    background-color: white;
 }
 .Ag{
-    position: absolute;
     left: 660px;
-    background-color: white;
 }
 .Cd{
-    position: absolute;
     left: 720px;
-    background-color: white;
 }
 .In{
-    position: absolute;
     left: 780px;
-    background-color: white;
 }
 .Sn{
-    position: absolute;
     left: 840px;
-    background-color: white;
 }
 .Sb{
-    position: absolute;
     left: 900px;
-    background-color: white;
 }
 .Te{
-    position: absolute;
     left: 960px;
-    background-color: white;
 }
 .I{
-    position: absolute;
     left: 1020px;
-    background-color: white;
 }
 .Xe{
-    position: absolute;
     left: 1080px;
-    background-color: white;
 }
 /*////////////////////////////////////////////////Row7*/
 .Fr{
-    position: absolute;
     left: 0px;
-    background-color: white;
 }
 .Ra{
-    position: absolute;
     left: 60px;
-    background-color: white;
 }
 .Ac{
-    position: absolute;
     left: 120px;
-    background-color: white;
 }
 .Rf{
-    position: absolute;
     left: 240px;
-    background-color: white;
 }
 .Db{
-    position: absolute;
     left: 300px;
-    background-color: white;
 }
 .Sg{
-    position: absolute;
     left: 360px;
-    background-color: white;
 }
 .Bh{
-    position: absolute;
     left: 420px;
-    background-color: white;
 }
 .Hs{
-    position: absolute;
     left: 480px;
-    background-color: white;
 }
 .Mt{
-    position: absolute;
     left: 540px;
-    background-color: white;
 }
 .Ds{
-    position: absolute;
     left: 600px;
-    background-color: white;
 }
 .Rg{
-    position: absolute;
     left: 660px;
-    background-color: white;
 }
 .Cn{
-    position: absolute;
     left: 720px;
-    background-color: white;
 }
 .Nh{
-    position: absolute;
     left: 780px;
-    background-color: white;
 }
 .Fl{
-    position: absolute;
     left: 840px;
-    background-color: white;
 }
 .Mc{
-    position: absolute;
     left: 900px;
-    background-color: white;
 }
 .Lv{
-    position: absolute;
     left: 960px;
-    background-color: white;
 }
 .Ts{
-    position: absolute;
     left: 1020px;
-    background-color: white;
 }
 .Og{
-    position: absolute;
     left: 1080px;
-    background-color: white;
 }
 /*////////////////////////////////////////////////Row7*/
 .Ce{
-    position: absolute;
     left: 240px;
-    background-color: white;
 }
 .Pr{
-    position: absolute;
     left: 300px;
-    background-color: white;
 }
 .Nd{
-    position: absolute;
     left: 360px;
-    background-color: white;
 }
 .Pm{
-    position: absolute;
     left: 420px;
-    background-color: white;
 }
 .Sm{
-    position: absolute;
     left: 480px;
-    background-color: white;
 }
 .Eu{
-    position: absolute;
     left: 540px;
-    background-color: white;
 }
 .Gd{
-    position: absolute;
     left: 600px;
-    background-color: white;
 }
 .Tb{
-    position: absolute;
     left: 660px;
-    background-color: white;
 }
 .Dy{
-    position: absolute;
     left: 720px;
-    background-color: white;
 }
 .Ho{
-    position: absolute;
     left: 780px;
-    background-color: white;
 }
 .Er{
-    position: absolute;
     left: 840px;
-    background-color: white;
 }
 .Tm{
-    position: absolute;
     left: 900px;
-    background-color: white;
 }
 .Yb{
-    position: absolute;
     left: 960px;
-    background-color: white;
 }
 .Lu{
-    position: absolute;
     left: 1020px;
-    background-color: white;
 }
 /*////////////////////////////////////////////////Row8*/
 .Th{
-    position: absolute;
     left: 240px;
-    background-color: white;
 }
 .Pa{
-    position: absolute;
     left: 300px;
-    background-color: white;
 }
 .U{
-    position: absolute;
     left: 360px;
-    background-color: white;
 }
 .Np{
-    position: absolute;
     left: 420px;
-    background-color: white;
 }
 .Pu{
-    position: absolute;
     left: 480px;
-    background-color: white;
 }
 .Am{
-    position: absolute;
     left: 540px;
-    background-color: white;
 }
 .Cm{
-    position: absolute;
     left: 600px;
-    background-color: white;
 }
 .Bk{
-    position: absolute;
     left: 660px;
-    background-color: white;
 }
 .Cf{
-    position: absolute;
     left: 720px;
-    background-color: white;
 }
 .Es{
-    position: absolute;
     left: 780px;
-    background-color: white;
 }
 .Fm{
-    position: absolute;
     left: 840px;
-    background-color: white;
 }
 .Md{
-    position: absolute;
     left: 900px;
-    background-color: white;
 }
 .No{
-    position: absolute;
     left: 960px;
-    background-color: white;
 }
 .Lr{
-    position: absolute;
     left: 1020px;
-    background-color: white;
 }
 .Number{
     position: absolute;
