@@ -6,6 +6,7 @@ body{
     background-color:#1c2b2d;
     height: 100vh;
     width: 100%; 
+    font-family: roboto;
 }
 @font-face{
     font-family: roboto;
@@ -16,105 +17,67 @@ body{
     text-align: center;
     font-size: 4vw;
     color: white;
-    font-family:roboto;
     margin-top: 20px;
 }
-/*
 .periodic_table{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(10,1fr);
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
     position:relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 85%;
-    height: 560px;
-    background-color: #1c2b2d;
-}
-.row{
-    display: flex;
-    flex-direction: rows;
-    flex: 80%;
 }
 .elements{
-    display: flex;
+    display: grid;
     width: 50px;
     height: 50px;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
     background-color:#3a585c;
-    position: absolute;
+    position: relative;
+    border-radius: 5px;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 5px 5px 5px ;
+    padding: 2px 2px 2px 2px;
 }
-.elements:hover{
-    transform: scale(1.5);
-    z-index: 100;
-    opacity: 0.8;
+.gap{
+    display: grid;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5px;
+    background: transparent;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
-
-.H,.Li,.Na,.K,.Cs,.Rb,.Fr{
-    left: 0px;
-}
-.He,.Ne,.Ar,.Kr,.Rn,.Xe,.Og{
-    left: 1080px;
-}
-.Be,.Mg,.Ca,.Ba,.Sr,.Ra{
-    left: 60px;
-}
-.B,.Al,.Ga,.Tl,.In,.Nh,.Ho,.Es{
-    left: 780px;
-}
-.C,.Si,.Ge,.Pb,.Sn,.Fl,.Er,.Fm{
-    left: 840px;
-}
-.N,.P,.As,.Bi,.Sb,.Mc,.Tm,.Md{
-    left: 900px;
-}
-.O,.S,.Se,.Po,.Te,.Lv,.Yb,.No{
-    left: 960px;
-}
-.F,.Cl,.Br,.At,.I,.Ts,.Lu,.Lr{
-    left: 1020px;
-}
-.Sc,.La,.Y,.Ac{
-    left: 120px;
-}
-.Ti,.Hf,.Zr,.Rf,.Ce,.Th{
-    left: 240px;
-}
-.V,.Ta,.Nb,.Db,.Pr,.Pa{
-    left: 300px;
-}
-.Cr,.W,.Mo,.Sg,.Nd,.U{
-    left: 360px;
-}
-.Mn, .Re, .Tc, .Bh, .Pm, .Np {
-    left: 420px;
-}
-.Fe, .Os, .Ru, .Hs, .Sm, .Pu{
-    left: 480px;
-}
-.Co, .Ir, .Rh, .Mt, .Eu, .Am{
-    left: 540px;
-}
-.Ni, .Pt, .Pd, .Ds, .Gd, .Cm{
-    left: 600px;
-}
-.Cu, .Au, .Ag, .Rg, .Tb, .Bk{
-    left: 660px;
-}
-.Zn, .Hg, .Cd, .Cn, .Dy, .Cf{
-    left: 720px;
-}
-*/
 .Number{
-    position: absolute;
-    top: 2%;
-    left: 2%;
-    height: auto;
-    font-family: roboto;
     font-size: 0.8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .Short_form{
     font-size: 1.5rem;
-    font-family: roboto;
 }
+.He{
+    grid-column: 19;
+}
+.B,.Al{
+    grid-column: 14;
+}
+.Ce{
+    grid-column: 5;
+}
+.Th{
+    grid-column: 5;
+}
+
+
