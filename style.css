@@ -3,7 +3,7 @@
     padding: 0 0 0 0;
 }
 body{
-    background-color:#1c253d;
+    background-color:#1c2b2d;
     height: 100vh;
     width: 100%; 
 }
@@ -11,10 +11,7 @@ body{
     font-family: roboto;
     src: url(assets/Roboto/Roboto-Black.ttf);
 }
-.gap{
-    height: 40px;
-    width: 100%;
-}
+
 .heading{
     text-align: center;
     font-size: 4vw;
@@ -30,386 +27,84 @@ body{
     transform: translateX(-50%);
     width: 85%;
     height: 560px;
-    background-color: #1c253d;
+    background-color: #1c2b2d;
 }
 .row{
     display: flex;
     flex-direction: rows;
-    flex: 50%;
+    flex: 80%;
 }
 .elements{
     display: flex;
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    background-color: white;
+    background-color:#3a585c;
     position: absolute;
 }
-/*////////////////////////////////////////////////Row1*/
-.H{
+.elements:hover{
+    transform: scale(1.12);
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.H,.Li,.Na,.K,.Cs,.Rb,.Fr{
     left: 0px;
 }
-.He{
+.He,.Ne,.Ar,.Kr,.Rn,.Xe,.Og{
     left: 1080px;
 }
-/*////////////////////////////////////////////////Row2*/
-.Li{
-    left:0px;
-}
-.Be{
+.Be,.Mg,.Ca,.Ba,.Sr,.Ra{
     left: 60px;
 }
-.B{
+.B,.Al,.Ga,.Tl,.In,.Nh,.Ho,.Es{
     left: 780px;
 }
-.C{
+.C,.Si,.Ge,.Pb,.Sn,.Fl,.Er,.Fm{
     left: 840px;
 }
-.N{
+.N,.P,.As,.Bi,.Sb,.Mc,.Tm,.Md{
     left: 900px;
 }
-.O{
+.O,.S,.Se,.Po,.Te,.Lv,.Yb,.No{
     left: 960px;
 }
-.F{
+.F,.Cl,.Br,.At,.I,.Ts,.Lu,.Lr{
     left: 1020px;
 }
-.Ne{
-    left: 1080px;
-}
-/*////////////////////////////////////////////////Row3*/
-.Na{
-    left:0px;
-}
-.Mg{
-    left: 60px;
-}
-.Al{
-    left: 780px;
-}
-.Si{
-    left: 840px;
-}
-.P{
-    left: 900px;
-}
-.S{
-    left: 960px;
-}
-.Cl{
-    left: 1020px;
-}
-.Ar{
-    left: 1080px;
-}
-/*////////////////////////////////////////////////Row3*/
-.K{
-    left: 0px;
-}
-.Ca{
-    left: 60px;
-}
-.Sc{
+.Sc,.La,.Y,.Ac{
     left: 120px;
 }
-.Ti{
+.Ti,.Hf,.Zr,.Rf,.Ce,.Th{
     left: 240px;
 }
-.V{
+.V,.Ta,.Nb,.Db,.Pr,.Pa{
     left: 300px;
 }
-.Cr{
+.Cr,.W,.Mo,.Sg,.Nd,.U{
     left: 360px;
 }
-.Mn{
+.Mn, .Re, .Tc, .Bh, .Pm, .Np {
     left: 420px;
 }
-.Fe{
+.Fe, .Os, .Ru, .Hs, .Sm, .Pu{
     left: 480px;
 }
-.Co{
+.Co, .Ir, .Rh, .Mt, .Eu, .Am{
     left: 540px;
 }
-.Ni{
+.Ni, .Pt, .Pd, .Ds, .Gd, .Cm{
     left: 600px;
 }
-.Cu{
+.Cu, .Au, .Ag, .Rg, .Tb, .Bk{
     left: 660px;
 }
-.Zn{
+.Zn, .Hg, .Cd, .Cn, .Dy, .Cf{
     left: 720px;
 }
-.Ga{
-    left: 780px;
-}
-.Ge{
-    left: 840px;
-}
-.As{
-    left: 900px;
-}
-.Se{
-    left: 960px;
-}
-.Br{
-    left: 1020px;
-}
-.Kr{
-    left: 1080px;
-}
-/*////////////////////////////////////////////////Row6*/
-.Cs{
-    left: 0px;
-}
-.Ba{
-    left: 60px;
-}
-.La{
-    left: 120px;
-}
-.Hf{
-    left: 240px;
-}
-.Ta{
-    left: 300px;
-}
-.W{
-    left: 360px;
-}
-.Re{
-    left: 420px;
-}
-.Os{
-    left: 480px;
-}
-.Ir{
-    left: 540px;
-}
-.Pt{
-    left: 600px;
-}
-.Au{
-    left: 660px;
-}
-.Hg{
-    left: 720px;
-}
-.Tl{
-    left: 780px;
-}
-.Pb{
-    left: 840px;
-}
-.Bi{
-    left: 900px;
-}
-.Po{
-    left: 960px;
-}
-.At{
-    left: 1020px;
-}
-.Rn{
-    left: 1080px;
-}
-/*////////////////////////////////////////////////Row5*/
-.Rb{
-    left: 0px;
-}
-.Sr{
-    left: 60px;
-}
-.Y{
-    left: 120px;
-}
-.Zr{
-    left: 240px;
-}
-.Nb{
-    left: 300px;
-}
-.Mo{
-    left: 360px;
-}
-.Tc{
-    left: 420px;
-}
-.Ru{
-    left: 480px;
-}
-.Rh{
-    left: 540px;
-}
-.Pd{
-    left: 600px;
-}
-.Ag{
-    left: 660px;
-}
-.Cd{
-    left: 720px;
-}
-.In{
-    left: 780px;
-}
-.Sn{
-    left: 840px;
-}
-.Sb{
-    left: 900px;
-}
-.Te{
-    left: 960px;
-}
-.I{
-    left: 1020px;
-}
-.Xe{
-    left: 1080px;
-}
-/*////////////////////////////////////////////////Row7*/
-.Fr{
-    left: 0px;
-}
-.Ra{
-    left: 60px;
-}
-.Ac{
-    left: 120px;
-}
-.Rf{
-    left: 240px;
-}
-.Db{
-    left: 300px;
-}
-.Sg{
-    left: 360px;
-}
-.Bh{
-    left: 420px;
-}
-.Hs{
-    left: 480px;
-}
-.Mt{
-    left: 540px;
-}
-.Ds{
-    left: 600px;
-}
-.Rg{
-    left: 660px;
-}
-.Cn{
-    left: 720px;
-}
-.Nh{
-    left: 780px;
-}
-.Fl{
-    left: 840px;
-}
-.Mc{
-    left: 900px;
-}
-.Lv{
-    left: 960px;
-}
-.Ts{
-    left: 1020px;
-}
-.Og{
-    left: 1080px;
-}
-/*////////////////////////////////////////////////Row7*/
-.Ce{
-    left: 240px;
-}
-.Pr{
-    left: 300px;
-}
-.Nd{
-    left: 360px;
-}
-.Pm{
-    left: 420px;
-}
-.Sm{
-    left: 480px;
-}
-.Eu{
-    left: 540px;
-}
-.Gd{
-    left: 600px;
-}
-.Tb{
-    left: 660px;
-}
-.Dy{
-    left: 720px;
-}
-.Ho{
-    left: 780px;
-}
-.Er{
-    left: 840px;
-}
-.Tm{
-    left: 900px;
-}
-.Yb{
-    left: 960px;
-}
-.Lu{
-    left: 1020px;
-}
-/*////////////////////////////////////////////////Row8*/
-.Th{
-    left: 240px;
-}
-.Pa{
-    left: 300px;
-}
-.U{
-    left: 360px;
-}
-.Np{
-    left: 420px;
-}
-.Pu{
-    left: 480px;
-}
-.Am{
-    left: 540px;
-}
-.Cm{
-    left: 600px;
-}
-.Bk{
-    left: 660px;
-}
-.Cf{
-    left: 720px;
-}
-.Es{
-    left: 780px;
-}
-.Fm{
-    left: 840px;
-}
-.Md{
-    left: 900px;
-}
-.No{
-    left: 960px;
-}
-.Lr{
-    left: 1020px;
-}
+
 .Number{
     position: absolute;
     top: 2%;
