@@ -19,6 +19,7 @@ body{
     font-family:roboto;
     margin-top: 20px;
 }
+/*
 .periodic_table{
     display: flex;
     flex-direction: column;
@@ -104,7 +105,7 @@ body{
 .Zn, .Hg, .Cd, .Cn, .Dy, .Cf{
     left: 720px;
 }
-
+*/
 .Number{
     position: absolute;
     top: 2%;
