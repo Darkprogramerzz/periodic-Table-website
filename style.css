@@ -45,7 +45,7 @@ body{
     position: absolute;
 }
 .elements:hover{
-    transform: scale(1.12);
+    transform: scale(1.5);
     z-index: 10;
     opacity: 0.8;
 }
