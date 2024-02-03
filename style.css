@@ -23,12 +23,9 @@ body{
     display: grid;
     grid-template-columns: repeat(18,1fr);
     grid-template-rows: repeat(10,1fr);
-    max-width: 1200px;
-    justify-content: center;
-    align-items: center;
     position:relative;
-    left: 50%;
-    transform: translateX(-50%);
+    max-width: 1000px;
+    margin: 0 200px 0 200px;
 }
 .elements{
     display: grid;
@@ -37,13 +34,15 @@ body{
     align-items: center;
     justify-content: center;
     background-color:#3a585c;
-    position: relative;
     border-radius: 5px;
-    position:relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 5px 5px 5px ;
-    padding: 2px 2px 2px 2px;
+
+}
+.elements:hover{
+    scale: 1.2;
+    position: relative;
+
+    background-color: aqua;
+    z-index: 1;
 }
 .gap{
     display: grid;
@@ -51,22 +50,16 @@ body{
     height: 50px;
     align-items: center;
     justify-content: center;
-    position: relative;
     border-radius: 5px;
     background: transparent;
-    position:relative;
-    left: 50%;
-    transform: translateX(-50%);
 }
 .Number{
     font-size: 0.8rem;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 .Short_form{
     font-size: 1.5rem;
 }
+
 .He{
     grid-column: 19;
 }
