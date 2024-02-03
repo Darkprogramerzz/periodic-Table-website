@@ -35,7 +35,7 @@ body{
     justify-content: center;
     background-color:#3a585c;
     border-radius: 5px;
-
+    margin: 5px 5px 5px 5px;
 }
 .elements:hover{
     scale: 1.2;
